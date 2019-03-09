@@ -100,7 +100,7 @@ span{
     /* background: rgb(105, 105, 177); */
     display: flex;
     flex-direction: row;
-    position: relative;
+   /*  position: relative; */
     align-items: center;
 }
 .port>ul{
@@ -128,15 +128,64 @@ span{
 .image1{
     display: flex;
     flex-direction: row;
-    margin-left: 30px;
+    /* margin-left: 30px; */
 }
 .all{
     border: 2px solid #4bcaff;
     color: #4bcaff !important ;
     padding: 10px;
 }
+.image1_1{
+    margin-left:0px !important;
+}
 .image1>div
 {
     margin-left: 30px;
 }
-
+.image2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.image2>div{
+    margin-left: 30px;
+}
+.image2_1{
+    margin-left: 0px !important;
+}
+.abc{
+    margin-right: 0px !important;
+}
+.de2>input{
+    background: #515f67;
+    border: 2px solid black;
+}
+.parent_df{
+    
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+.default{
+    background: #515f67;
+    width: 1170px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+}
+.de1{
+    color:#c9ccce;
+    margin-left: 75px;
+}
+.video{
+    margin: 80px;
+}
+.de2>input{
+    margin-left: 75px;
+    color: #39434b;
+    border: 2px solid #39434b;
+    border-radius: 5px;
+}
