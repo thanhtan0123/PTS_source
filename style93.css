@@ -122,10 +122,21 @@ span{
     color: #c1c5c7;
 }
 .port1{
-    background: green;
+    /* background: green; */
+    
+}
+.image1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
 }
 .all{
     border: 2px solid #4bcaff;
-    color: #4bcaff;
-
+    color: #4bcaff !important ;
+    padding: 10px;
 }
+.image1>div
+{
+    margin-left: 30px;
+}
+
